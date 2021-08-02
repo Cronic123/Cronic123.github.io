@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+	  
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body class="">
+    <!-- Header -->
+    <header class="header" id="header">
+      <div class="navigation">
+        <div class="nav-center container d-flex">
+          <div class="logo"><h1>Man<span>ish</span> Jain</h1></div>
+
+          <ul class="nav-list d-flex">
+            <li class="nav-item">
+              <a href="#header" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#portfolio" class="nav-link">My Project</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact Me</a>
+            </li>
+            <li class="nav-item theme-icon">
+              <i class="fas fa-moon"></i>
+            </li>
+          </ul>
+
+          <div class="theme theme-icon">
+            <i class="fas fa-moon"></i>
+          </div>
+
+          <div class="hamburger">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+      </div>
+		  <div class="popup">
+	<video src="Project showcase videos/LAB3 object orianted vid.mp4" controls="true" width="640" height="360" ></video>
+			  <img src="images/close.png" onClick="show();" class="close1" alt="">
+	</div>
+	
+		
+		<div class="popup2">
+		<video src="Project showcase videos/Assinment 2 CaesarCipher vid.mp4" controls="true" width="640" height="360" ></video>
+			<img src="images/close.png" onClick="show2();" class="close2" alt="">
+		
+	</div>	
+		
+		
+
+      <div class="hero d-flex">
+        <div class="left">
+          <h1>
+            Hi <br />
+            I'm <span>Manish Jain</span> <br />
+            IT Student at KSU
+          </h1>
+        </div>
+        <div class="right">
+          <div class="img-box">
+            <img src="images/manishjain3.png" alt="hero image" />
+          </div>
+        </div>
+      </div>
+
+      <!-- color control -->
+      <div class="control">
+        <div class="widget">
+          <i class="fas fa-cog"></i>
+        </div>
+        <div class="colors">
+          <span data-id="#0044FF"></span>
+          <span data-id="#FF4600"></span>
+          <span data-id="#CE00FF"></span>
+          <span data-id="#03FFC7"></span>
+        </div>
+      </div>
+
+      <!-- Social icons -->
+      <div class="social-icons d-flex">
+        <div class="icon"><a href="mailto:manishandoorjain@gmail.com"><i class="fas fa-envelope"></i></a></div>
+        <div class="icon"><a href="https://www.linkedin.com/in/manish-jain-9a0604191/" target="_blank"><i class="fab fa-linkedin"></i></a></div>
+		<div class="icon"><a href="https://github.com/Cronic123?tab=repositories" target="_blank"><i class="fab fa-github"></i></a></div>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+      <div class="title">
+        <h1>About Me</h1>
+      </div>
+
+      <div class="container d-flex about-center">
+        <div class="left">
+          <div>
+            <img src="images/manishjain3.png" alt="" />
+          </div>
+        </div>
+        <div class="right">
+          <h1>I'm Manish Jain</h1>
+          <h3>IT Student</h3>
+          <p>
+            Hello, I am an information technology student at Kennesaw State University. My graduation date is set for 2022, before that I am eager to acquire as many experiences as possible. I enjoy technology and love working in the field, it gives me a sense of enjoyment. The source code to my projects can be found in my github page.
+          </p>
+			<a href="DOC/Resume of Manish jain.docx"><button type="button">Dowload Resume </button></a>
+        </div>
+      </div>
+    </section>
+	 
+
+    <!-- Skills Section -->
+    <section class="section skills" id="skills">
+      <div class="title">
+        <h1>Skills</h1>
+      </div>
+
+      <div class="skills-center container d-flex">
+        <div class="left">
+          <div class="top">
+            <h2>Programming</h2>
+            <div class="cards d-flex">
+              <div class="card">Java</div>
+              <div class="card">Python</div>
+				<!-->
+              
+				<!------> 
+            </div>
+          </div>
+          <div class="bottom">
+            <h2>Microsoft Office</h2>
+            <div class="cards d-flex">
+              <div class="card">Words</div>
+              <div class="card">Excel</div>
+              <div class="card">Outlook</div>
+            </div>
+          </div>
+        </div>
+        <div class="right">
+          <img src="images/prgramming.jpg" alt="" />
+        </div>
+		    	 <div>
+      
+	</div>
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+	  
+    <section class="section portfolio" id="portfolio">
+      <div class="title">
+        <h1>My Projects</h1>
+      </div>
+
+      <div class="container portfolio-center">
+		   
+		
+        <div class="card">
+          <div class="img-holder">
+			 
+            <img src="images/oject orianted.jpg"    alt="" />
+			  
+				  <span ><i class="far fa-eye" onClick="show();" ></i></span>
+		 
+		
+			</div>
+			
+			
+         
+		  </div>
+		  
+		  <div class="card">
+          <div class="img-holder">
+            <img src="images/Caesar-Cipher.jpg" alt="" />
+            <span><i class="far fa-eye" onClick="show2();" ></i></span>
+			  
+			 
+			</div>
+		  </div>
+          </div>
+    
+	
+    </section>
+
+ 
+    <!-- Contact -->
+    <section class="section contact" id="contact">
+      <div class="title">
+        <h1>Contact Me</h1>
+      </div>
+
+      <div class="contact-center container d-flex">
+        <div class="left">
+          <img src="images/contact me.jpg" alt=""  class="center2"/>
+        </div>
+      </div>
+		
+		
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>@ 2021 <span>Manish Jain</span></p>
+    </footer>
+						
+  </body>
+<script>
+	function show(){
+		var popup = document.querySelector(".popup");
+		var video = document.querySelector("video");
+		popup.classList.toggle("active");
+		video.pause();
+		video.currentTime = 0;
+	}
+
+</script>
+	
+	<script>
+	function show2(){
+		var popup = document.querySelector(".popup2");
+		var video = document.querySelector("video");
+		popup.classList.toggle("active2");
+		video.pause();
+		video.currentTime = 0;
+	}
+	</script>
+
+  <script src="./index.js"></script>
+</html>
